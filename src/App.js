@@ -7,16 +7,17 @@ export default function App() {
     <div className='App'>
       <div className='container'>
         <Weather defaultCity="New York" />
+        
         <footer>
           This project was coded by{' '}
-          <a href='https://wildbyte.org/' target='_blank' rel='noreferrer'>
+          <a href='https://wildbyte.org/' target='_blank' rel='noopener noreferrer'>
             Angelica Victoria
           </a>{' '}
           and is{' '}
           <a
             href='https://github.com/angelicav1/weather-react-app'
             target='_blank'
-            rel='noreferrer'
+            rel='noopener noreferrer'
           >
             open-sourced on GitHub
           </a>
